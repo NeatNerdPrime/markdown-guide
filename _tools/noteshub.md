@@ -1,9 +1,9 @@
 ---
-title: Znote
+title: NotesHub
 category: "notes"
-description: "Znote is a free Markdown editor designed for developers."
-icon: znote.png
-website: https://znote.io
+description: "A fully cross-platform and vendor-agnostic Markdown note taking app."
+icon: noteshub.png
+website: https://noteshub.app
 syntax:
   - id: headings
     available: y
@@ -34,7 +34,7 @@ syntax:
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
-    available: y
+    available: n
   - id: footnotes
     available: n
   - id: heading-ids
@@ -48,17 +48,23 @@ syntax:
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: n
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
-    available: y
-  - id: html
     available: n
+  - id: html
+    available: y
 ---
 
-[Znote](https://znote.lagrede.fr) is a free application designed to help you write organized Markdown documents. You can quickly edit your texts, notes, and files using the simplistic left-side widget organizer for smoothly navigating different files. The dark mode and code highlighter features are designed for developers. Available for macOS, Windows and Linux.
+[NotesHub](https://noteshub.app) is a fully cross-platform and vendor-agnostic Markdown note taking app.
 
-{% include image.html file="/assets/images/tools/znote.png" alt="Znote Markdown application" %}
+With NotesHub, your notes truly belong to you and not any particular vendor. All of your data is stored in Git repositories, so you can clone them and manage outside the app.
+
+You can use Markdown to format your notes and create tables, lists, images, and more. Markdown will keep your notes in the same style regardless of whether you copied text from the internet or wrote it from scratch.
+
+NotesHub is a progressive web application you can use on any device. You can install it or use it as website.
+
+{% include image.html file="/assets/images/tools/noteshub.png" alt="NotesHub" %}
 
 {% include tool-syntax-table.html %}
